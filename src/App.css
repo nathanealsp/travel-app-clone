@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+:root {
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  --kayak: #fa5e13;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input,
+input[type=search],
+input[type=type] {
+  -webkit-appearance: none;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  min-height: 54px;
+  padding-left: 40px;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+input [type="date"] {
+  font-size: 1.2em;
+}
